@@ -1,0 +1,20 @@
+{
+  "source": "European Central Bank, EXR.D.USD.EUR.SP00.A",
+  "quote_units": "US dollars per one euro",
+  "return_units": "Decimal simple return between consecutive published observations",
+  "input_csv_sha256": "5b02b52a24263145cdf00437c3d9bf743f59f9f68aa44eb14f90bcd8cab5a8e2",
+  "quote_count": 22,
+  "return_count": 21,
+  "first_observation_date": "2024-01-02",
+  "last_observation_date": "2024-01-31",
+  "first_to_last_reference_rate_change": -0.010861628331507668,
+  "intervals_longer_than_one_calendar_day": 4,
+  "mean_interval_simple_return": -0.0005166412754868858,
+  "positive_interval_count": 9,
+  "negative_interval_count": 12,
+  "zero_interval_count": 0,
+  "mean_interpretation": "Arithmetic sample mean per observed interval, with mixed calendar lengths; descriptive, not a forecast.",
+  "python_version": "3.12.4",
+  "matplotlib_version": "3.8.4",
+  "limitations": "One-month inspection sample; reference rates are not executable trading prices. No predictive model has been evaluated."
+}

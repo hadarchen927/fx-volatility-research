@@ -1,0 +1,13 @@
+{
+  "purpose": "Learning fixture: observe the February 2 return, then update the EWMA forecast for February 3. The next target return is excluded.",
+  "source_forecasts_csv": "reports/research/development_forecasts.csv",
+  "source_forecasts_sha256": "dd634c9953ffe4188c75963a01afce51d64d620825369368e707edaf1c255a13",
+  "source_config_sha256": "9fc63aacf351778c9e4933bf996fc0b2401d49c46462cd4a70161040c5018637",
+  "decay": 0.94,
+  "previous_forecast_origin": "2010-02-01",
+  "observed_return_date": "2010-02-02",
+  "next_forecast_origin": "2010-02-02",
+  "next_target_date": "2010-02-03",
+  "previous_forecast": 3.916532788150903e-05,
+  "observed_return": 0.0017250053906418155
+}

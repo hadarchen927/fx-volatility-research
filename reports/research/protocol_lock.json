@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-10-23T18:09:20.907354+00:00",
+  "purpose": "Local protocol record created before this pipeline's first final-period access; not an external preregistration.",
+  "file_sha256": {
+    "study_config.json": "9fc63aacf351778c9e4933bf996fc0b2401d49c46462cd4a70161040c5018637",
+    "fx_calculator.py": "aa2cf39bb13786876e9c135b928df3197d5491ab1fbd707b9cdc570b540653d2",
+    "forecast_models.py": "403bc5257c1873c6d7c730b26fee2853a95890201bd26a592c3422c80c8dd5a4",
+    "research_data.py": "fa113bf42e860a8143b07a85aeb5a734ebb0bad1910ec4095a28cc548acb461a",
+    "run_research.py": "3a1738683368866fda4d28e9879ee47c27af1bb7084165de15cdb72b93b290ad"
+  },
+  "development_snapshot_sha256": "f7432b378b1c2f37942e7f9cf780fa5cc2f06e3eef5a11da6b6595d8aa5c1e1e",
+  "development_summary_sha256": "9c470c720c4cabd8202b9ffc48128f4b802b03db2e9702547754c372be21fad3",
+  "final_data_accessed_by_this_pipeline_before_lock": false
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "January 2024 EUR/USD inspection sample",
+  "observed_rows": 22,
+  "expected_observations": 22,
+  "checks": {
+    "unique_dates": true,
+    "chronological_order": true,
+    "positive_finite_rates": true,
+    "complete_publication_calendar": true,
+    "no_unexpected_dates": true
+  },
+  "missing_dates": [],
+  "unexpected_dates": [],
+  "passed_all_checks": true
+}

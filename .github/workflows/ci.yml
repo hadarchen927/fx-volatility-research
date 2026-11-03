@@ -1,0 +1,49 @@
+name: Reproduce FX research
+
+"on":
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    name: Python 3.12.4 on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python 3.12.4
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12.4"
+
+      - name: Install locked dependencies
+        run: python -m pip install -r requirements-lock.txt
+
+      - name: Run all tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Reproduce development and validation offline
+        run: python run_research.py --stage development --offline
+
+      - name: Reproduce the final evaluation offline
+        run: python run_research.py --stage final --offline
+
+      - name: Run the rolling forecast example
+        run: python lessons/day10_rolling_exercise.py
+
+      - name: Run the EWMA update example
+        run: python lessons/day11_ewma_exercise.py
+
+      - name: Run the MSE comparison example
+        run: python lessons/day12_mse_comparison.py

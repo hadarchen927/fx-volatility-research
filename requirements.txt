@@ -1,0 +1,4 @@
+# Plotting stack for Python 3.12; the research calculations use the standard library.
+# Pin NumPy to the 1.x version used with this Matplotlib release.
+matplotlib==3.8.4
+numpy==1.26.4

@@ -1,0 +1,172 @@
+{
+  "purpose": "Learning fixture: first scored development rolling forecast; raw inputs only, no target return.",
+  "source_quotes_csv": "data/processed/research_development_quotes.csv",
+  "source_quotes_sha256": "386a9c2bdc6cc0312d028891cb5eda3f56d6af7a4ee54e2c57e4e6e9a6804edc",
+  "source_forecasts_csv": "reports/research/development_forecasts.csv",
+  "source_forecasts_sha256": "dd634c9953ffe4188c75963a01afce51d64d620825369368e707edaf1c255a13",
+  "forecast_origin": "2010-02-01",
+  "target_date": "2010-02-02",
+  "window": 20,
+  "input_intervals": [
+    {
+      "previous_date": "2010-01-04",
+      "date": "2010-01-05",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4389,
+      "usd_per_eur": 1.4442,
+      "simple_return": 0.003683369240391869
+    },
+    {
+      "previous_date": "2010-01-05",
+      "date": "2010-01-06",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4442,
+      "usd_per_eur": 1.435,
+      "simple_return": -0.006370308821492782
+    },
+    {
+      "previous_date": "2010-01-06",
+      "date": "2010-01-07",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.435,
+      "usd_per_eur": 1.4304,
+      "simple_return": -0.003205574912892097
+    },
+    {
+      "previous_date": "2010-01-07",
+      "date": "2010-01-08",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4304,
+      "usd_per_eur": 1.4273,
+      "simple_return": -0.0021672259507829143
+    },
+    {
+      "previous_date": "2010-01-08",
+      "date": "2010-01-11",
+      "calendar_gap_days": 3,
+      "previous_usd_per_eur": 1.4273,
+      "usd_per_eur": 1.4528,
+      "simple_return": 0.01786590065157996
+    },
+    {
+      "previous_date": "2010-01-11",
+      "date": "2010-01-12",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4528,
+      "usd_per_eur": 1.4481,
+      "simple_return": -0.0032351321585904103
+    },
+    {
+      "previous_date": "2010-01-12",
+      "date": "2010-01-13",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4481,
+      "usd_per_eur": 1.4563,
+      "simple_return": 0.0056625923624059014
+    },
+    {
+      "previous_date": "2010-01-13",
+      "date": "2010-01-14",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4563,
+      "usd_per_eur": 1.4486,
+      "simple_return": -0.00528737210739533
+    },
+    {
+      "previous_date": "2010-01-14",
+      "date": "2010-01-15",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4486,
+      "usd_per_eur": 1.4374,
+      "simple_return": -0.007731602926964033
+    },
+    {
+      "previous_date": "2010-01-15",
+      "date": "2010-01-18",
+      "calendar_gap_days": 3,
+      "previous_usd_per_eur": 1.4374,
+      "usd_per_eur": 1.4369,
+      "simple_return": -0.0003478502852371956
+    },
+    {
+      "previous_date": "2010-01-18",
+      "date": "2010-01-19",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4369,
+      "usd_per_eur": 1.4279,
+      "simple_return": -0.006263483888927635
+    },
+    {
+      "previous_date": "2010-01-19",
+      "date": "2010-01-20",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4279,
+      "usd_per_eur": 1.4132,
+      "simple_return": -0.010294838574129796
+    },
+    {
+      "previous_date": "2010-01-20",
+      "date": "2010-01-21",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4132,
+      "usd_per_eur": 1.4064,
+      "simple_return": -0.004811774695725953
+    },
+    {
+      "previous_date": "2010-01-21",
+      "date": "2010-01-22",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4064,
+      "usd_per_eur": 1.4135,
+      "simple_return": 0.005048350398179667
+    },
+    {
+      "previous_date": "2010-01-22",
+      "date": "2010-01-25",
+      "calendar_gap_days": 3,
+      "previous_usd_per_eur": 1.4135,
+      "usd_per_eur": 1.4151,
+      "simple_return": 0.0011319419879731488
+    },
+    {
+      "previous_date": "2010-01-25",
+      "date": "2010-01-26",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4151,
+      "usd_per_eur": 1.4085,
+      "simple_return": -0.004663981344074581
+    },
+    {
+      "previous_date": "2010-01-26",
+      "date": "2010-01-27",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4085,
+      "usd_per_eur": 1.4072,
+      "simple_return": -0.0009229676961306914
+    },
+    {
+      "previous_date": "2010-01-27",
+      "date": "2010-01-28",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.4072,
+      "usd_per_eur": 1.3999,
+      "simple_return": -0.005187606594656114
+    },
+    {
+      "previous_date": "2010-01-28",
+      "date": "2010-01-29",
+      "calendar_gap_days": 1,
+      "previous_usd_per_eur": 1.3999,
+      "usd_per_eur": 1.3966,
+      "simple_return": -0.002357311236516793
+    },
+    {
+      "previous_date": "2010-01-29",
+      "date": "2010-02-01",
+      "calendar_gap_days": 3,
+      "previous_usd_per_eur": 1.3966,
+      "usd_per_eur": 1.3913,
+      "simple_return": -0.003794930545610828
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "release_id": "fx-volatility-research-github-v1-2026-11-03",
+  "prepared_date": "2026-11-03",
+  "scope": "Public GitHub package; personal preparation files excluded.",
+  "automated_test_count": 62,
+  "github_hosted_ci": "configured_not_yet_run",
+  "included_file_count_excluding_manifest": 50,
+  "validation": "reports/validation_report.md",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 278,
+      "sha256": "9aa60ec290653cc24e778e049b7bab6efc3934b2fced284d6f4776692c15831d"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 1251,
+      "sha256": "a767a8104aa6a05d601c43f97951ebfcb4bfd31732c24e53cd1dc8e01f5a65e0"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 317,
+      "sha256": "f5a5b1209eb0625836aacb68c7b79dee75a51e043ce75efdf49757579284e793"
+    },
+    {
+      "path": "analyze_fx_data.py",
+      "bytes": 9508,
+      "sha256": "99d0c5b819506f77120fa386baae536b7425ac065a99c4215d5356b831aed565"
+    },
+    {
+      "path": "audit_fx_data.py",
+      "bytes": 2863,
+      "sha256": "ad9648b4d9be94c450f6c437656a3fa4dd694c69e6b55905c5337422c5aa26ac"
+    },
+    {
+      "path": "CODE_GUIDE.md",
+      "bytes": 10306,
+      "sha256": "218ee624b3544595c0a74e50e27b95ee9802185b773850d1152d7d319795d407"
+    },
+    {
+      "path": "data/processed/eur_usd_2024-01-01_2024-01-31.csv",
+      "bytes": 434,
+      "sha256": "5b02b52a24263145cdf00437c3d9bf743f59f9f68aa44eb14f90bcd8cab5a8e2"
+    },
+    {
+      "path": "data/processed/eur_usd_2024-01-01_2024-01-31_returns.csv",
+      "bytes": 1366,
+      "sha256": "10c9ecd119276a6089b35ffb21548210bea9c4f0669be4642533d135a047c6d2"
+    },
+    {
+      "path": "data/processed/research_development_quotes.csv",
+      "bytes": 72577,
+      "sha256": "386a9c2bdc6cc0312d028891cb5eda3f56d6af7a4ee54e2c57e4e6e9a6804edc"
+    },
+    {
+      "path": "data/processed/research_final_quotes.csv",
+      "bytes": 77399,
+      "sha256": "6516bc6516b2160046af6a54860392f432436f24445f055c301ae0098f9a6698"
+    },
+    {
+      "path": "data/raw/eur_usd_2024-01-01_2024-01-31_ecb.csv",
+      "bytes": 4900,
+      "sha256": "e9e2d419ee8608bce285902c9a0a8d0c526efc16cbd9390b13b1ee01c17fd6ed"
+    },
+    {
+      "path": "data/raw/eur_usd_2024-01-01_2024-01-31_ecb.metadata.json",
+      "bytes": 772,
+      "sha256": "bc6981adab58d4480dd67a884348dbc94428b24ddfdbe73c2c9f47b81e533f97"
+    },
+    {
+      "path": "data/raw/research_eur_usd_2010-01-01_2024-12-31_ecb.csv",
+      "bytes": 798827,
+      "sha256": "f7432b378b1c2f37942e7f9cf780fa5cc2f06e3eef5a11da6b6595d8aa5c1e1e"
+    },
+    {
+      "path": "data/raw/research_eur_usd_2010-01-01_2024-12-31_ecb.metadata.json",
+      "bytes": 1033,
+      "sha256": "cc037d897f9550bc84787f728b50257f89bd03e54ba07f3ebef67de6682c81b7"
+    },
+    {
+      "path": "data/raw/research_eur_usd_2025-01-01_2025-12-31_ecb.csv",
+      "bytes": 53343,
+      "sha256": "530d83d62b58dc020d2f177be9f26f3f89010f779d1640ad268f4f19e5db066b"
+    },
+    {
+      "path": "data/raw/research_eur_usd_2025-01-01_2025-12-31_ecb.metadata.json",
+      "bytes": 867,
+      "sha256": "4d8fce737397fa448cf15a7332ec7bad7c33f7f7fc251d49e63f4049b32ab2d8"
+    },
+    {
+      "path": "DATA_SOURCES.md",
+      "bytes": 2974,
+      "sha256": "4a7ad45fbc3d8985965c8033ac4d43fb41a6b9f033b5731b7e17fe4b75bbf896"
+    },
+    {
+      "path": "download_fx_data.py",
+      "bytes": 5841,
+      "sha256": "0490bf67ed3aa464d43da9b3371c9eb90152d7953a46a20751832724070f33a1"
+    },
+    {
+      "path": "EXPERIMENTS.md",
+      "bytes": 2955,
+      "sha256": "4eafd2f52c538657f36e6685a5b9b781a04a5d97a1c75d38196d6b09f1167cba"
+    },
+    {
+      "path": "forecast_models.py",
+      "bytes": 8704,
+      "sha256": "403bc5257c1873c6d7c730b26fee2853a95890201bd26a592c3422c80c8dd5a4"
+    },
+    {
+      "path": "fx_calculator.py",
+      "bytes": 2471,
+      "sha256": "aa2cf39bb13786876e9c135b928df3197d5491ab1fbd707b9cdc570b540653d2"
+    },
+    {
+      "path": "lessons/day10_rolling_exercise.py",
+      "bytes": 2739,
+      "sha256": "e8486385253ec5864136610befcce0db49b5435cfb5ff3b5d094d55f6d5b7b76"
+    },
+    {
+      "path": "lessons/day10_rolling_inputs.json",
+      "bytes": 5129,
+      "sha256": "97288d0e62116bbd392afb5a7bfd76f1c5c4597fbdca492eba3eb8595a2e1c1d"
+    },
+    {
+      "path": "lessons/day11_ewma_exercise.py",
+      "bytes": 3061,
+      "sha256": "862e8ecddcef318cd9271dfc7176f6cc1496dad60a1167cc78cf1e905369d8e1"
+    },
+    {
+      "path": "lessons/day11_ewma_inputs.json",
+      "bytes": 693,
+      "sha256": "5e10c280a25217bb2a9dd091221956aa233a95b5557e40f7c959eb74b8766006"
+    },
+    {
+      "path": "lessons/day12_mse_comparison.py",
+      "bytes": 4870,
+      "sha256": "82fc7e034701c3c7eb82e5013f18ea5824cdecdae7d5b523cc13c8a61e803a63"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9442,
+      "sha256": "ddf04c0116ee318d6d00d3f3df374d1833e8d1d80e9f89d6fbdfca100e67ecf5"
+    },
+    {
+      "path": "reports/data_quality_report.json",
+      "bytes": 391,
+      "sha256": "3c61a3fe9adb3f69e137d8dc3f38d2ccdf6eb33eb9762be2b5b933b1a949f1b8"
+    },
+    {
+      "path": "reports/fx_overview.png",
+      "bytes": 167550,
+      "sha256": "32287a290c2f13b1c8f80995c30cd56212044c3acbda263e30fe0b59c1ff7f4f"
+    },
+    {
+      "path": "reports/research/development_annual_mse.png",
+      "bytes": 46090,
+      "sha256": "ecbb8a279a13e8f5df57fdbcbb54ddb4ad37ab35833bc51851d58691b7119153"
+    },
+    {
+      "path": "reports/research/development_forecast_comparison.png",
+      "bytes": 149855,
+      "sha256": "40279ddf54c897f8641b9ae43af8c402bf8c5a3a88d7c93098364c9b7f15f846"
+    },
+    {
+      "path": "reports/research/development_forecasts.csv",
+      "bytes": 693463,
+      "sha256": "dd634c9953ffe4188c75963a01afce51d64d620825369368e707edaf1c255a13"
+    },
+    {
+      "path": "reports/research/development_summary.json",
+      "bytes": 11126,
+      "sha256": "9c470c720c4cabd8202b9ffc48128f4b802b03db2e9702547754c372be21fad3"
+    },
+    {
+      "path": "reports/research/final_annual_mse.png",
+      "bytes": 46279,
+      "sha256": "27b286964a1302f535b73974ccf0efdc050b12238f1931d6904074ae48718fcf"
+    },
+    {
+      "path": "reports/research/final_forecast_comparison.png",
+      "bytes": 117830,
+      "sha256": "9eca0d3c87f1b36d5e90a971b6525380b3c8b55f727164440258faa073071c57"
+    },
+    {
+      "path": "reports/research/final_forecasts.csv",
+      "bytes": 738161,
+      "sha256": "5678925c1a34a19e39f0c2d6e4d494477a94733e00f2aac03b323b6fe7e8d771"
+    },
+    {
+      "path": "reports/research/final_summary.json",
+      "bytes": 14037,
+      "sha256": "afcb9302a7030fce4a57262b5e179d122a851f377268569208740e9cdcd26634"
+    },
+    {
+      "path": "reports/research/protocol_lock.json",
+      "bytes": 948,
+      "sha256": "13a8e55ff828e740638bcf66ac7b7404107c97686a3e4f9890a1c1098ebf9a92"
+    },
+    {
+      "path": "reports/research_report.md",
+      "bytes": 9620,
+      "sha256": "a0490bb8c6a7c266ec4f76554b499f78c9fabdf5168ad20460819d8a4ea5247a"
+    },
+    {
+      "path": "reports/return_summary.json",
+      "bytes": 1024,
+      "sha256": "c0ed2d06490ed2523b0bdc1751bf38aeff3c68084e143cdc10c7dbf4dd23bf3e"
+    },
+    {
+      "path": "reports/validation_report.md",
+      "bytes": 4309,
+      "sha256": "a59860feda44a28d900eecb509584ed4dd356e3c2b0f3f4c0da8e4f4aca65bab"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 262,
+      "sha256": "75d11006afb9b578ddd5956a388b2e3ac6afdbb5ec7ec6604bf441e296c0586f"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 184,
+      "sha256": "ab89e633645b2b3221f94d2014d1443d8e7b68e4ce0272c1d575fe6de5ecd5e7"
+    },
+    {
+      "path": "research_data.py",
+      "bytes": 14979,
+      "sha256": "fa113bf42e860a8143b07a85aeb5a734ebb0bad1910ec4095a28cc548acb461a"
+    },
+    {
+      "path": "run_research.py",
+      "bytes": 12164,
+      "sha256": "3a1738683368866fda4d28e9879ee47c27af1bb7084165de15cdb72b93b290ad"
+    },
+    {
+      "path": "study_config.json",
+      "bytes": 535,
+      "sha256": "9fc63aacf351778c9e4933bf996fc0b2401d49c46462cd4a70161040c5018637"
+    },
+    {
+      "path": "tests/test_forecast_models.py",
+      "bytes": 10861,
+      "sha256": "c9981d2fac253c6c23e4ab964a984c2493f9fd725e04bdce2ad6689666322ecf"
+    },
+    {
+      "path": "tests/test_learning_examples.py",
+      "bytes": 2190,
+      "sha256": "43be333031110520e6031ff5c066c0a16bd5f5a5b82692b276c237cfbf07bb3a"
+    },
+    {
+      "path": "tests/test_research_data.py",
+      "bytes": 21115,
+      "sha256": "dab924ba4ce74dec27fa4519c0169367017641a384905475cf9b3581e8f74dae"
+    },
+    {
+      "path": "tests/test_research_pipeline.py",
+      "bytes": 4766,
+      "sha256": "851a4f53555ce6a89c062884e6d954d2c130060470b6c85769f100de7632219c"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "source": "European Central Bank",
+  "source_documentation": "https://data.ecb.europa.eu/help/api/data-examples",
+  "request_url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?startPeriod=2025-01-01&endPeriod=2025-12-31&format=csvdata",
+  "series_key": "EXR.D.USD.EUR.SP00.A",
+  "requested_start_date": "2025-01-01",
+  "requested_end_date": "2025-12-31",
+  "retrieved_at_utc": "2026-10-23T18:09:57.547974+00:00",
+  "quote_units": "US dollars per one euro",
+  "rate_type": "Daily reference rate; not an executable price or market close",
+  "raw_sha256": "530d83d62b58dc020d2f177be9f26f3f89010f779d1640ad268f4f19e5db066b",
+  "raw_row_count": 255,
+  "skipped_holiday_placeholder_count": 0,
+  "skipped_holiday_placeholder_dates": [],
+  "observation_count": 255,
+  "first_observation_date": "2025-01-02",
+  "last_observation_date": "2025-12-31"
+}

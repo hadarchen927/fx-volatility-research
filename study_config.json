@@ -1,0 +1,16 @@
+{
+  "study_id": "eur-usd-squared-returns-v1",
+  "start_date": "2010-01-01",
+  "development_end": "2021-12-31",
+  "validation_start": "2022-01-01",
+  "validation_end": "2024-12-31",
+  "final_start": "2025-01-01",
+  "end_date": "2025-12-31",
+  "rolling_window": 20,
+  "ewma_decay": 0.94,
+  "target": "next_published_observation_squared_simple_return",
+  "metric": "mean_squared_error",
+  "conditional_mean_assumption": "zero",
+  "calendar_gap_scaling": "none",
+  "parameter_selection": "fixed_before_retrieving_long_history_no_search"
+}

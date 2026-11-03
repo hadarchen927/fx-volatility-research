@@ -1,0 +1,9 @@
+# Keep source, documentation and workflow line endings stable across checkouts.
+* text=auto eol=lf
+*.py text eol=lf
+# Preserve downloaded and derived data, metadata and manifest bytes exactly.
+*.csv -text
+*.json -text
+data/raw/* -text
+study_config.json text eol=lf
+*.png binary

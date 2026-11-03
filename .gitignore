@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.env
+*.zip
+*.zip.sha256
+
+# Personal tutoring, CV and upload preparation stay in the working copy.
+CV_ENTRY.md
+GITHUB_UPLOAD.md
+TIMELINE.md
+RETURN_ON_NOV1.md
+london_research_plan.md
+interview_notes.md
+interview_script.md
+experiment_log.md
+lessons/*.md
+lessons/my_*.py
